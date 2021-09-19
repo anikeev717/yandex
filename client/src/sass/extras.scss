@@ -1,0 +1,22 @@
+.extras {
+  display: flex;
+  flex-flow: row wrap;
+}
+.extras__title {
+  font-weight: bold;
+  color: var(--theme-color-yandex-black);
+  margin-top: 40px;
+}
+.extras__list {
+  margin-top: 10px;
+ 
+}
+.extras__item {
+  color: var(--theme-color-yandex-black);
+  width: 90%;
+  margin-bottom: 15px;
+}
+.extras__item-vl {
+  color: var(--theme-color-yandex-violet);
+  letter-spacing: -0.01em;
+}

@@ -1,0 +1,41 @@
+.location__wrapper {
+  position: relative;
+}
+.location__map {
+  width: 100%;
+  height: 664px;
+}
+.location__title {
+  text-align: center;
+  color: var(--theme-color-yandex-black);
+  position: absolute;
+  top: 87px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.location__info {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--theme-color-yandex-black);
+}
+.location__effects {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 90%,
+      var(--theme-color-base) 100%
+    ),
+    linear-gradient(
+      180deg,
+      var(--theme-color-base) 0%,
+      rgba(255, 255, 255, 0) 10%
+    );
+}

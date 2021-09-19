@@ -1,0 +1,59 @@
+:root {
+  --theme-color-base: #fff;
+  --theme-color-base2: #000;
+  --theme-color-yandex-yellow: #fed305;
+  --theme-color-yandex-black: #272727;
+  --theme-color-yandex-violet: #211381;
+  --theme-color-yandex-grey: #747474;
+  --theme-color-yandex-grey2: #d5d5d5;
+  --theme-color-yandex-grey3: #cccccc;
+  --theme-color-yandex-grey4: #c4c4c4;
+  --theme-color-yandex-grey5: #6e6e6e;
+  --theme-color-yandex-white: #f4f4f4;
+
+  --mq-size-sm: 576px;
+  --mq-size-md: 768px;
+  --mq-size-lg: 992px;
+  --mq-size-xl: 1200px;
+
+  --menu-button-line-height: 2px;
+  --menu-button-line-width: calc(16 * var(--menu-button-line-height));
+}
+.container {
+  --container-width: 100%;
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.menu {
+  --hh-size-sm: 48px;
+  --hh-size-xl: 72px;
+  --header-height: var(--hh-size-sm);
+  height: var(--header-height);
+}
+.text-sm {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+.text-md {
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 1.1;
+}
+.text-lg {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.img {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}

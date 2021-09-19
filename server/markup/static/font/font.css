@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Yandex Sans Text';
+    src: url('YandexSansText-Medium.eot');
+    src: local('Yandex Sans Text Medium'), local('YandexSansText-Medium'),
+        url('YandexSansText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('YandexSansText-Medium.woff2') format('woff2'),
+        url('YandexSansText-Medium.woff') format('woff'),
+        url('YandexSansText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yandex Sans Text';
+    src: url('YandexSansText-Light.eot');
+    src: local('Yandex Sans Text Light'), local('YandexSansText-Light'),
+        url('YandexSansText-Light.eot?#iefix') format('embedded-opentype'),
+        url('YandexSansText-Light.woff2') format('woff2'),
+        url('YandexSansText-Light.woff') format('woff'),
+        url('YandexSansText-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.eot');
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Regular.woff2') format('woff2'),
+        url('Montserrat-Regular.woff') format('woff'),
+        url('Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.eot');
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Bold.woff2') format('woff2'),
+        url('Montserrat-Bold.woff') format('woff'),
+        url('Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
